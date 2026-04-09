@@ -39,7 +39,7 @@ This is very important for the script to work.
 2. Run the code using:
 
 
-Python password_manager_yahux.txt 
+Python password_manager_yahux.py 
 
 
 *** Make sure you are in the script file directory ***
