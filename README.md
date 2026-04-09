@@ -21,7 +21,7 @@ Your plain-text password and full hash never leave your machine.)
 - **API Integration:** Connects to the Have I Been Pwned (HIBP) REST API.
 
 
-## 🛠️ Installation
+## 🛠️ Windows Installation
 
 1. Clone the repo:
 
@@ -44,5 +44,30 @@ if not working try (** py -m pip install -r requirements.txt **)
 
 Python password_manager_yahux.py 
 
+
+## 🛠️ Linux Installation (Ubuntu/Debian/Kali)
+
+1. Clone the repo:
+
+git clone https://github.com/YOUR_USERNAME/password_manager_yahux.git
+
+*** Make sure you are in the script file directory ***
+
+cd password_manager_yahux
+
+# Install dependencies
+
+This is very important for the script to work. 
+
+(** sudo apt install python3-pip **)
+
+(** pip3 install -r requirements.txt **)
+
+If you get a "Permissions" error, try: (** pip3 install -r requirements.txt --user **)
+
+2. Run the code using:
+
+
+Python password_manager_yahux.py 
 
 
