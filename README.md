@@ -27,7 +27,7 @@ Your plain-text password and full hash never leave your machine.)
 
    ```bash
 
-   git clone [https://github.com/YOUR_USERNAME/password_manager_yahux](https://github.com/YOUR_USERNAME/pwned-password-generator.git)
+   git clone https://github.com/yahux/password_manager_yahux.git](https://github.com/yahux/password_manager_yahux.git)
 
 *** Make sure you are in the script file directory ***
 
@@ -49,7 +49,7 @@ Python password_manager_yahux.py
 
 1. Clone the repo:
 
-git clone https://github.com/YOUR_USERNAME/password_manager_yahux.git
+git clone (https://github.com/yahux/password_manager_yahux.git)
 
 *** Make sure you are in the script file directory ***
 
@@ -70,4 +70,8 @@ If you get a "Permissions" error, try: (** pip3 install -r requirements.txt --us
 
 Python password_manager_yahux.py 
 
+
+**linux chmod**
+
+chmod +x password_manager_yahux.py && ./password_manager_yahux.py
 
